@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cursinho Web-Contato</title>
+    <link rel="icon" href="D:\Estudos\Faculdade\Desenvolvimento web\Primeiro exercicio\livros.png"/>
+</head>
+<body>
+    <header>
+        <nav> 
+            <a href ="index.html">Página inicial</a>
+            <a href="disciplinas.html">Disciplinas oferecidas</a>
+            <a href ="contato.html">Entre em contato</a>
+        </nav>
+    <main>
+        <h1>Dados para contato:</h1>
+        <form action="novoAluno" method="POST">
+            <div>
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" nome="NomeCompleto " id="nome"><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" nome="email " id="email"><br>
+
+                <isciplina for="disciplina">Qual disciplina te mais interessa?</label><br>
+                <select name="disciplina" id="disciplina">
+                    <option>Desenvolvimento Web</option>
+                </select>
+            </div>
+            <section>
+                <article>
+                    <p>Quais linguagens você conhece?</p>
+                    <input type="checkbox" id="linguagens-1" nome="linguagens " value="csharp">
+                    <label for="linguagens-1">C#</label><br>
+                    <input type="checkbox" id="linguegens-2" nome="linguagens " value="java">
+                    <label for="linguagens-2">Java</label><br>
+                    <input type="checkbox" id="linguegens-3" nome="linguagens " value="js">
+                    <label for="linguagens-3">JavaScript</label><br>
+                    <input type="checkbox" id="linguegens-4" nome="linguagens " value="python">
+                    <label for="linguagens-4">Python</label><br>
+                    <input type="checkbox" id="linguegens-5" nome="linguagens " value="php">
+                    <label for="linguagens-5">PHP</label><br>
+                    <input type="checkbox" id="linguegens-6" nome="linguagens " value="ruby">
+                    <label for="linguagens-6">Ruby</label><br>
+                </article>
+                <article>
+                    <p>Onde Conheceu o Cursinho Web?</p>
+                    <input type="radio" id="conheceu-1" nome="conheceu" value="amigos">
+                    <label for="conheceu-1">Amigos</label><br>
+                    <input type="radio" id="conheceu-2" nome="conheceu" value="google">
+                    <label for="conheceu-2">Google</label><br>
+                    <input type="radio" id="conheceu-3" nome="conheceu " value="youtube">
+                    <label for="conheceu-3">Youtube</label><br>
+                    <input type="radio" id="conheceu-4" nome="conhceu " value="instagram">
+                    <label for="conheceu-4">Instagram</label><br>
+                </article>
+            </section>    
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>       
+    </main>     
+
+
+    <footer>
+        <div > <!--email -->
+            <p>Cursinho Web - Todos os direitos reservados <br>
+            Contato:<a href="mailto:email@provedor.com">email@provedor.com</a> </p>
+        </div>  
+    </footer>
+</body>
+</html>
